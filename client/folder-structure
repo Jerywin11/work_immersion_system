@@ -1,0 +1,22 @@
+work-immersion-system/
+├── src/
+│   ├── assets/                  # Static assets (images, fonts, etc.)
+│   ├── components/              # Reusable UI components
+│   │   ├── Layout.tsx           # Main layout component
+│   │   ├── Header.tsx           # Header component
+│   │   ├── Sidebar.tsx          # Sidebar component
+│   │   └── Footer.tsx           # Footer component
+│   ├── hooks/                   # Custom React hooks
+│   │   └── useAuth.ts           # Authentication hook
+│   ├── pages/                   # Page components
+│   │   ├── Home.tsx             # Home page
+│   │   ├── About.tsx            # About page
+│   │   ├── Dashboard.tsx        # Dashboard page
+│   │   └── NotFound.tsx         # 404 page
+│   ├── services/                # API and business logic services
+│   │   └── apiService.ts        # API service
+│   ├── utils/                   # Utility functions
+│   │   └── formatDate.ts        # Date formatting utility
+│   ├── App.tsx                  # Main application component
+│   └── main.tsx                 # Entry point
+└── tsconfig.json                # TypeScript configuration
